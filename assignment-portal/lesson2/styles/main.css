@@ -1,40 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@media screen and (min-width: 440px) {
-
-    h1{
-        font-size: 2.5rem;
-        margin: 1rem;
-        text-align: center;
-    }
+@media screen and (min-width: 810px) {
 
     #grid{
         display: grid;
         grid-template-columns: auto auto auto;
     }
-
-    section{
-        text-align: center;
+    img{
+        max-width: 200px;
     }
-
-    #one{
-        background-color: lime;
-        border: 20px;
-    }
-    
-    #two{
-        background-color: aqua;
-    }
-    
-    #three{
-        background-color: magenta;
-    }
-
-    html{
-        font-family: Fira Sans, Times New Roman, serif;
-    }
-
-    footer{
-        text-align: center;
+    p{
+        max-width: 200px;
     }
 }
 
+@media screen and (max-width: 810px) {
+    #grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    img{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #grid{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    img{
+        max-width: 250px;
+    }
+}
+
+html{
+    font-family: Fira Sans, Times New Roman, serif;
+}
+
+footer{
+    text-align: center;
+    background-color: silver;
+}
+header{
+    background-color: #561D5E;
+    color: silver;
+}
+h1, h2, h3{
+    text-align: center;
+}
+#one{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#two{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#three{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+a{
+    justify-content: center;
+
+}
+img{
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    display: block;
+}
