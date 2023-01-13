@@ -4,6 +4,10 @@ header{
     background-color: #561D5E;
     border-radius: 20px;
     color: silver;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 2fr;
+    display: grid;
 }
 
 h1{
@@ -14,9 +18,9 @@ h1{
 }
 img {
     display: block;
-    margin-left:2%;
     align-items: center;
-    width: 20%;
+    border-radius: 20px;
+    width: 100%;
   }
 html{
     font-family: Lora;

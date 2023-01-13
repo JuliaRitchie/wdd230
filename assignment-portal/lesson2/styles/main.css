@@ -6,23 +6,28 @@
         grid-template-columns: auto auto auto;
     }
     img{
-        max-width: 200px;
+        max-width: 270px;
+        width: 95%;
     }
     p{
-        max-width: 200px;
+        max-width: 400px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 810px) and (min-width: 500px) {
     #grid{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
     }
     img{
-        max-width: 300px;
+        max-width: 400px;
+        width: 95%;
+    }
+    #three{
+        grid-column: 1/3;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     #grid{
         display: grid;
         grid-template-columns: auto;
@@ -39,36 +44,36 @@ html{
 footer{
     text-align: center;
     background-color: silver;
+    height: 100px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 header{
     background-color: #561D5E;
     color: silver;
+    height: 100px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 h1, h2, h3{
     text-align: center;
 }
-#one{
+section{
     border: 5px;
     border-style: solid;
     border-color: black;
-}
-
-#two{
-    border: 5px;
-    border-style: solid;
-    border-color: black;
-}
-
-#three{
-    border: 5px;
-    border-style: solid;
-    border-color: black;
-}
-
-a{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    align-items: center;
     justify-content: center;
-
 }
+
+#link{
+    text-align: center;
+}
+
 img{
     justify-content: center;
     width: 95%;
@@ -76,6 +81,7 @@ img{
     display: block;
 }
 div#content{
-    max-width: 800px;
+    max-width: 950px;
     margin: 0 auto;
+    
 }
