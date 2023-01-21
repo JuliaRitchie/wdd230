@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: Poppins;
+}
 
 header{
     background-color: #561D5E;
@@ -10,12 +14,19 @@ header{
 
 }
 
+img{
+    max-width: 365px;
+    justify-content: center;
+    align-content: center;
+}
+
 header a{
     float: left;
     display: block;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
+    margin: 20px;
 }
 
 header a:hover{
@@ -30,13 +41,8 @@ header a.active{
     border-radius: 20px;
 }
 
-footer {
-	background-color: #708080;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
+body{
+    text-align: center;
 }
 
 h1{
@@ -46,15 +52,8 @@ h1{
     word-spacing: normal;
     font-size: 10px;
 }
-img {
-    display: block;
-    align-items: center;
-    border-radius: 20px;
-    width: 100%;
-  }
-html{
-    font-family: Lora;
-}
+
+
 footer{
     background-color: silver;
     border-radius: 20px;
