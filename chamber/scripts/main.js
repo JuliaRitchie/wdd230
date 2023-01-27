@@ -10,14 +10,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
 // long, medium, short options ... try them
-const button = document.querySelector('.btn');
 
-function show() {
-    // button.classList.add('newstyle');
-    button.classList.toggle('newstyle');
-}
-
-button.addEventListener('click', show );
 
 
 // Hamburger Button JS
