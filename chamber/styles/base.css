@@ -29,4 +29,9 @@ a:first-child{
     nav{
         flex-direction: row;
     }
+    * {
+        max-width: 650px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
