@@ -1,3 +1,36 @@
 .newstyle{
     background-color: red;
 }
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    display: none;
+    padding: 15px;
+}
+a:first-child{
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.responsive a{
+    display: block;
+}
+
+@media screen and (min-width: 650px){
+    a:first-child{
+        display: none;
+    }
+    a{
+        display:block;
+        display: flex;
+        
+    }
+    nav{
+        flex-direction: row;
+    }
+}
