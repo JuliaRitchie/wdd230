@@ -30,3 +30,8 @@ document.querySelector('.year').textContent = year;
 
 let currentdate = new Date(document.lastModified);
 document.querySelector('.currentdate').textContent = currentdate;
+
+let weekday = date.getDay();
+if (weekday == 1 || weekday == 2){
+	document.querySelector('.dynamic').textContent = 'Come to the Wednesday Chamber of Commerce meeting!'
+}

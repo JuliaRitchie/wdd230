@@ -112,3 +112,9 @@ footer{
     display: none;
 }
 
+.dynamic{
+    text-align: center;
+    background-color: #FFAA5A;
+    color: #56351E;
+    padding: 15px;
+}
