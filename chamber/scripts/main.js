@@ -33,5 +33,5 @@ document.querySelector('.currentdate').textContent = currentdate;
 
 let weekday = date.getDay();
 if (weekday == 1 || weekday == 2){
-	document.querySelector('.dynamic').textContent = 'Come to the Wednesday Chamber of Commerce meeting!'
+	document.querySelector('.dynamic').textContent = 'Come to the Wednesday Chamber of Commerce meet and greet!'
 }
