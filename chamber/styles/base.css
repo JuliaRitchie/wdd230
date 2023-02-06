@@ -14,7 +14,8 @@ nav {
 #hero {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;    
+    grid-template-columns: 1fr;  
+    margin-top: auto;  
 }
 img{
     width: 100%;
@@ -32,8 +33,13 @@ img{
     color: #EDF7F6;
     background-color: rgba(0,0,0,.5);
     padding: 20px;
-    margin-top: -250px;
+    margin-top: 200px;
     margin-bottom: auto;
+}
+
+button:hover{
+    background-color: #EDF7F6;
+    color: #56351E;
 }
 
 .hero{
@@ -114,8 +120,10 @@ footer{
 .spots-2{
     padding: 10px;
 }
-.spot-3{
+.spots-3{
     display: none;
+    margin-bottom: auto;
+    padding: 10px;
 }
 
 .join{

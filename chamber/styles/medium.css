@@ -16,10 +16,12 @@
     #hero-msg{
         grid-column: 2/3;
         grid-row: 2;
+        margin-top: -250px;
     }
     
     .hero{
         max-width: 150%;
+
     }
 
     .weather {
