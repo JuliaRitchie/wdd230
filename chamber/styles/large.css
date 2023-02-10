@@ -21,9 +21,8 @@
         grid-template-columns: 1fr 2fr 1fr;
     }
 
-    .hero-msg{
-        margin-top: auto;
-        font-size: 0.3em;
+    #hero-msg{
+        margin-top: -450px;
     }
 
     .hero{

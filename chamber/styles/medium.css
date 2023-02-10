@@ -2,7 +2,7 @@
     main{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        
     }
 
     .hero-box{
@@ -20,7 +20,8 @@
     }
     
     .hero{
-        max-width: 150%;
+        max-width: 100%;
+        object-fit: cover;
     }
 
     .weather {
