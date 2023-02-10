@@ -69,6 +69,7 @@
     .spotlights {
         grid-column: 1/3;
         grid-row: 3/4;
+        display: flex;
     }
     .event {
         grid-column: 1/2;

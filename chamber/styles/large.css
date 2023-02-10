@@ -84,6 +84,7 @@
     .spotlights {
         grid-column: 3/4;
         grid-row: 1/4;
+        display: block;
     }
     .event {
         grid-column: 1/2;
