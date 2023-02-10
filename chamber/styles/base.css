@@ -127,6 +127,10 @@ footer{
     padding: 10px;
 }
 
+.cooking-utensils-img{
+    display: none;
+}
+
 .join{
     display: none;
 }
@@ -136,6 +140,12 @@ footer{
     background-color: #FFAA5A;
     color: #56351E;
     padding: 15px;
+}
+
+.navigation{
+    position: fixed;
+    background-color: #56351E;
+    z-index: 2;
 }
 
 button{
