@@ -7,6 +7,12 @@
         display: flex;
         
     }
+    .cake-img{
+        width: 80%;
+    }
+    .cook-img{
+        width: 80%;
+    }
     nav{
         flex-direction: row;
     }
@@ -37,10 +43,13 @@
     }
 
     .join-img{
-        height: 78.7%;
+        height: 75%;
     }
 
-   
+   .rabbit-img{
+    width: 100%;
+    height: 75%;
+   }
 
     .cooking-utensils-img{
         display: block;

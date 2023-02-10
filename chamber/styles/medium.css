@@ -29,6 +29,15 @@
         grid-column: 1/3;
     }
 
+    .spot-3-text{
+        display: none;
+    }
+
+    .rabbit-img{
+       height: 60%;
+
+    }
+
     #hero-msg{
         grid-column: 2/3;
         grid-row: 2;
