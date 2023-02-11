@@ -155,3 +155,6 @@ button{
     font-size: 1.5em;
     position: absolute;
 }
+.spot-3-text{
+    display: none;
+}

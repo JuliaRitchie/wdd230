@@ -91,5 +91,8 @@
         grid-row: 1/2;
     }
 
+    .spot-3-text{
+        display: block;
+    }
 
 }
