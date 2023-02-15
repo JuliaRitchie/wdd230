@@ -22,8 +22,6 @@ const io = new IntersectionObserver (
             }
             console.log(entries);
         })
-        
-        
     },
     options
     );
