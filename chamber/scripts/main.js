@@ -45,3 +45,7 @@ let windchill = document.querySelector('.wc');
 if (temp <= 50 && windspeed >= 3){
 	windchill.textContent = chill + ' mph';
 }
+
+/* storage local and session */
+localStorage.setItem('name', 'Julia Nye - Permanent');
+sessionStorage.setItem('class', 'WDD230 - not Permanent')
