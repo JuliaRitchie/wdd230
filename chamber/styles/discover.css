@@ -1,0 +1,9 @@
+
+img{
+    transition: 1s ease;
+}
+
+img:hover{
+    /* -webkit-filter: blur(5px); */
+    transition: 1s ease;
+}
