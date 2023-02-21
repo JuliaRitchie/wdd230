@@ -1,5 +1,5 @@
 table, th, td{
-    
+    caption-side: bottom;
     border-collapse: collapse;
     padding: 20px;
     text-align: center;
@@ -22,4 +22,8 @@ tbody tr:nth-of-type(even){
 
 tbody td, tbody th{
     border: 1px solid lightgray;
+}
+
+table caption {
+    margin-top: 10px;
 }
