@@ -4,6 +4,6 @@ img{
 }
 
 img:hover{
-    /* -webkit-filter: blur(5px); */
+    /* -webkit-filter: blur(5px);  */
     transition: 1s ease;
 }
