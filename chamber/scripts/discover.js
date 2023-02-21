@@ -4,7 +4,7 @@ if(!localStorage.getItem('lastVisit')) {
     let currentdate = Date.now();
     let lastdate = localStorage.getItem('lastVisit')
 
-    let diff = (currentdate - lastdate)/1000/60/60/24/3 - 1
+    let diff = (currentdate - lastdate)/1000/60/60/24/3 
     console.log(diff)
     let diff_rounded = Math.round(diff)
     document.querySelector('#diff').textContent = diff_rounded
