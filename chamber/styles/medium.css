@@ -29,7 +29,10 @@
         grid-column: 1/3;
     }
 
-    
+    #join_content{
+        flex-direction: row;
+        margin: 80px;
+    }
 
     .rabbit-img{
        height: 60%;
