@@ -225,8 +225,25 @@ input[type='submit']{
     border-radius: 15px;
     background-color: #FFAA5A;
 }
-
+#join_content{
+    flex-direction: column;
+    margin: 80px;
+}
 input[type='submit']:hover{
+    background-color: #56351E;
+    color: #EDF7F6;
+}
+#thankyou{
+    display: inline;
+    text-align: center;
+    padding: 80px;
+}
+#join_link{
+    background-color: #EDF7F6;
+    color: #56351E;
+    max-width: 230px;
+}
+#join_link:hover{
     background-color: #56351E;
     color: #EDF7F6;
 }

@@ -73,6 +73,10 @@
         grid-column: 1/2;
         grid-row: 3/4;
     }
+    #join_content{
+        flex-direction: row;
+        margin: 80px;
+    }
     #hero {
         grid-column: 2/3;
         grid-row: 1/3;
