@@ -35,3 +35,27 @@ const displayProphets = (prophets) => {
       cards.appendChild(card);
     }) // end of forEach loop
   } // end of function expression
+
+
+
+function displayTable(prophets){
+    let row = document.querySelectorAll('tr');
+    row.forEach((item) =>{
+    item.remove();})
+    
+    prophets.forEach((prophet) => {
+        let tr = document.createElement('tr');
+        let td_name = document.createElement('td');
+        let td_birthplace = document.createElement('td');
+        let td_birthdate = document.createElement('td');
+
+        td_name.textContent = `${prophet.name} ${prophet.lastname}`;
+        td_birthplace.textContent = prophet.birthplace;
+        td_birthdate.textContent = prophet.birthdate;
+
+        tr.appendChild(td_name);
+        tr.appendChild(td_birthplace);
+        tr.appendChild(td_birthdate);
+        document.querySelector('table').appendChild(tr);
+    })
+}

@@ -21,3 +21,32 @@ section{
     width: 90%;
     box-shadow: 5px 10px 8px;
 }
+#view{
+    text-align: center;
+    font-size: 3em;
+}
+
+#cards, #list{
+    border: 3px solid black;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+table {
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+}
+
+td{
+    padding: 5px;
+    display: block; /* for media query use display: table-cell; for larger and medium and display:block; for smaller */
+}
+
+tr:nth-of-type(even){
+    background-color: #ccc;
+}
+
+table a{
+    color: navy; /* for chamber of commerce website */
+}
