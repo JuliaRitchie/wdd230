@@ -1,0 +1,23 @@
+h1, h2{
+    text-align: center;
+    color: navy;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+section{
+    border: 1px navy;
+    background-color: lightblue;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+}
+
+.cards img{
+    width: 90%;
+    box-shadow: 5px 10px 8px;
+}
