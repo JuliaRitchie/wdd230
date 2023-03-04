@@ -1,0 +1,57 @@
+{
+    "businesses": [
+      {
+        "name": "Fairytale Cafe",
+        "address": "3901 Land Park Drive, Sacramento, CA 95822",
+        "website": "https://www.fairytaletown.org/attractions/dish-spoon-cafe/",
+        "imageurl": "https://juliaritchie.github.io/wdd230/chamber/images/fairytale-cafe-logo.jpeg"
+      },
+      {
+        "name": "Cooks and Crooks",
+        "address": "12 W Main St #3, Rexburg, ID 83440",
+        "website": "http://www.idjc.idaho.gov/facility-operations/state-facilities/jcc-st-anthony/",
+        "imageurl": "https://juliaritchie.github.io/wdd230/chamber/images/cooks-crooks-logo.png"
+      },
+      {
+        "name": "Mrs. Powell's Bakery",
+        "address": "19 E Main St, Rexburg, ID 83440",
+        "website": "https://mrspowellsbakery.com/",
+        "imageurl": "https://mrspowellsbakery.com/wp-content/webpc-passthru.php?src=https://mrspowellsbakery.com/wp-content/uploads/2021/10/Mrs.Powells_Logo_Long-White-Logo.png&nocache=1"
+      },
+      {
+        "name": "The Hickory",
+        "address": "485 N 2nd E, Rexburg, ID 83440",
+        "website": "https://www.thehickorybbq.com/",
+        "imageurl": "https://images.getbento.com/accounts/84a8678d1e8a3314a16584c54ad4073e/media/images/41901isologo.png"
+      },
+      {
+        "name": "Pizza Pie Cafe",
+        "address": "240 N 2nd E, Rexburg, ID 83440",
+        "website": "https://pizzapiecafe.co/",
+        "imageurl": "https://pizzapiecafe.co/wp-content/themes/PizzaPieCafe-Theme/images/PizzaPieLogo.svg"
+      },
+      {
+        "name": "Red Rabbit Grill",
+        "address": "155 W Main St #8, Rexburg, ID 83440",
+        "website": "https://www.redrabbitgrill.com/",
+        "imageurl": "https://static.wixstatic.com/media/aec8cd_7ec1d375d9bf474796dd8e0b3c0542a2~mv2.png/v1/fill/w_337,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RRG_Circle_White.png"
+      },
+      {
+        "name": "Milhollow",
+        "address": "48 S 1st E, Rexburg, ID 83440",
+        "website": "https://www.millhollowrestaurant.com/",
+        "imageurl": "https://images.squarespace-cdn.com/content/v1/6127ff8b4bc2c17dc0379a3d/80a0ffc7-a09d-43e1-8222-605bd52ddf4d/Logo+%28full-wht%29%402x.png?format=1500w"
+      },
+      {
+        "name": "Kainoa's Hawaiian Grill",
+        "address": "115 S 2nd St W, Rexburg, ID 83440",
+        "website": "https://www.kainoasrexburg.com/",
+        "imageurl": "https://menufyproduction.imgix.net:443/637859896467085289+762815.png?fit=crop&w=&h=350&auto=compress,format"
+      },
+      {
+        "name": "The SnakeBite Restaurant",
+        "address": "401 Park Ave, Idaho Falls, ID 83402",
+        "website": "https://snakebiterestaurant.com/",
+        "imageurl": "https://snakebite.imgix.net/2a6f6a3d-b6ed-4716-a33d-9ca5eb532b02/SnakeBiteLogo_White-012x.png?auto=compress%2Cformat&fit=min&fm=png&q=80&rect=0%2C0%2C1296%2C890&w=500&s=ba0e7af2f0f10c484848b7066d51e704" }
+    ]
+  }
