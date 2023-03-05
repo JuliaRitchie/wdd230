@@ -2,17 +2,7 @@ const url = 'https://juliaritchie.github.io/wdd230/chamber/directory.json'
 
 const card_view = document.querySelector('#cards')
 const list_view = document.querySelector('#list')
-card_view.addEventListener('click', () => {
-    async function getBusinessData() {
-        const response = await fetch(url);
-        const data = await response.json();
-        console.table(data.businesses);  // note that we reference the prophet array of the data object given the structure of the json file
-        displayBusiness(data.businesses);
-      }
-    getBusinessData();})
-list_view.addEventListener('click', () => {
-    mainnav.classList.toggle('responsive');
-})
+
 
 function showCards(){
     let row = document.querySelectorAll('tr');
@@ -25,15 +15,18 @@ function showCards(){
         item.remove();
     })
 
-}async function getBusinessData() {
+}
+async function getBusinessData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.businesses);  // note that we reference the prophet array of the data object given the structure of the json file
-    displayBusiness(data.businesses);
+    displayTable(data.businesses);
   }
 getBusinessData();
 
-const displayBusiness = (businesses) => {
+
+
+const displayTable = (businesses) => {
     const cards = document.querySelector('div.cards'); // select the output container element
   
     businesses.forEach((business) => {
@@ -66,7 +59,7 @@ const displayBusiness = (businesses) => {
 
 
 
-function displayTable(businesses){
+function displayBusinessTable(businesses){
     let row = document.querySelectorAll('tr');
     row.forEach((item) =>{
     item.remove();})
@@ -87,3 +80,21 @@ function displayTable(businesses){
         document.querySelector('table').appendChild(tr);
     })
 }
+card_view.addEventListener('click', () => {
+    showCards()
+    async function getBusinessData() {
+        const response = await fetch(url);
+        const data = await response.json();
+        console.table(data.businesses);  // note that we reference the prophet array of the data object given the structure of the json file
+        displayTable(data.businesses);
+      }
+    getBusinessData();})
+list_view.addEventListener('click', () => {
+    showCards()
+    async function getBusinessData() {
+        const response = await fetch(url);
+        const data = await response.json();
+        console.table(data.businesses);  // note that we reference the prophet array of the data object given the structure of the json file
+        displayBusinessTable(data.businesses);
+      }
+    getBusinessData();})

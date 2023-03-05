@@ -1,0 +1,51 @@
+h1, h2, p{
+    text-align: center;
+    color: #FFAA5A;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+section{
+    border: 1px navy;
+    background-color: #56351E;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+}
+
+.cards img{
+    width: 90%;
+}
+#view{
+    text-align: center;
+    font-size: 3em;
+}
+
+#cards, #list{
+    border: 3px solid black;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+table {
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+}
+
+td{
+    padding: 5px;
+    display: block; /* for media query use display: table-cell; for larger and medium and display:block; for smaller */
+}
+
+tr:nth-of-type(even){
+    background-color: #ccc;
+}
+
+table a{
+    color: navy; /* for chamber of commerce website */
+}
