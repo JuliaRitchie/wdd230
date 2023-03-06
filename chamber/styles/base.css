@@ -248,3 +248,9 @@ input[type='submit']:hover{
     color: #EDF7F6;
 }
 
+td {
+
+    padding: 5px;
+   /* display: block; for media query use display: table-cell; for larger and medium and display:block; for smaller */
+    display: block;
+   }

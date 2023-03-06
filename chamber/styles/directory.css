@@ -37,12 +37,7 @@ table {
     font-size: 1.2em;
 }
 
-td {
 
-    padding: 5px;
-   /* display: block; for media query use display: table-cell; for larger and medium and display:block; for smaller */
-
-   }
 
 tr:nth-of-type(even){
     background-color: #FFAA5A;
