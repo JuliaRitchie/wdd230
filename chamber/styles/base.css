@@ -254,3 +254,7 @@ td {
    /* display: block; for media query use display: table-cell; for larger and medium and display:block; for smaller */
     display: block;
    }
+
+#weather_icon {
+width: 100px;
+}

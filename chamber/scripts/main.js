@@ -1,5 +1,6 @@
 const datefield = document.querySelector(".date");
 const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+const apiURL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/hawaii?unitGroup=metric&key=CWNDZEEVESS3DLCGJAEU8KYP7&contentType=json";
 
 // derive the current date using a date object
 const now = new Date();
@@ -45,6 +46,24 @@ let windchill = document.querySelector('.wc');
 if (temp <= 50 && windspeed >= 3){
 	windchill.textContent = chill + ' mph';
 }
+
+// Weather API
+
+const getWeather = async () => {
+    const response = await fetch(apiURL);
+    const data = await response.json();
+    console.log(data);
+    let t = data.currentConditions.temp;
+    document.querySelector('.t').textContent = Math.round(t * 5/9 +32 );
+    let image = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/main/SVG/1st%20Set%20-%20Color/${data.currentConditions.icon}.svg`;
+    document.querySelector('.ws').textContent = data.currentConditions.windspeed;
+    document.querySelector('.desc').textContent =  data.currentConditions.conditions;
+    document.querySelector('#weather_icon').src = image;
+    document.querySelector('#weather_icon').alt= data.currentConditions.conditions + ' icon';
+
+    //windchill code goes right here
+  };
+getWeather();
 
 /* storage local and session */
 localStorage.setItem('name', 'Julia Nye - Permanent');
