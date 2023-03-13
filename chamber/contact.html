@@ -35,29 +35,26 @@
             <input id="fname" name="firstname" required>
             <label for="lname">Last Name *:</label>
             <input id="lname" name="lastname" required>
-            <label for="title">Business Position Title *:</label>
-            <span>Only letters, dashes, and spaces, 7 or more letters</span>
-            <input id="title" name="biztitle" pattern="[A-Za-z -]+" minlength="7" required>
             <label for="email">Email *:</label>
             <input id="email" name="email" type="email" placeholder="name@domain.com" required>
             <label for="phone">Cell Phone *:</label>
             <input id="phone" name="phone" type="tel" placeholder="123-456-7890" required>
             <label for="business">Business Name*:</label>
             <input id="business" name="bizname" required>
-            <label for="radio">Enter your Level of Membership:</label>
+            <label for="radio">Are you a member of Rixida Chamber of Commerce?</label>
             <div id="radio">
                 <input id="member" id="one" type="radio" name="mlevel">
-                <label for="one">Level 1</label>
+                <label for="one">Yes</label>
                 <input id="member" id="two" type="radio" name="mlevel">
-                <label for="two">Level 2</label>
+                <label for="two">No</label>
                 <input id="member" id="three" type="radio" name="mlevel">
-                <label for="three">Level 3</label>
-                <input id="member" id="four" type="radio" name="mlevel">
-                <label for="four">Level 4</label>
+                <label for="three">Unsure</label>
             </div> 
-            <label for="message"> Business Description:</label>
+            <label for="message"> Message Content:</label>
             <textarea id="message"></textarea>
             <input id="date" type="hidden" name="todaydate">
+            <input type="submit" value="Send Message">
+        </form>
     </main>
     <footer>
         <img src="images/logo.webp" class="logo" alt="Rixida logo">
