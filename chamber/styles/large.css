@@ -22,9 +22,10 @@
     .spot-4{
         display: block;
     }
-    main{
+    .main-page{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
+        margin: 20px;
     }
 
     .navigation{

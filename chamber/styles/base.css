@@ -116,15 +116,22 @@ footer{
 
 .spots-1{
     padding: 10px;
+    background-color: #FFAA5A;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 17px;
 }
 
 .spots-2{
     padding: 10px;
+    background-color: #FFAA5A;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
-.spots-3{
-    display: none;
-    margin-bottom: auto;
-    padding: 10px;
+#spots-3{
+    background-color: #FFAA5A;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 .cooking-utensils-img{
@@ -257,4 +264,17 @@ td {
 
 #weather_icon {
 width: 100px;
+}
+
+#contact-link{
+    color: #56351E;
+    background-color: #EDF7F6;
+    border: #56351E solid 2px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+#contact-link:hover{
+    color: #EDF7F6;
+    background-color: #56351E;
 }
