@@ -6,8 +6,18 @@
         -o-transition: all 1s ease;
         -ms-transition: all 1s ease;
         transition: all 1s ease;
+        width: auto;
         }
+
+    
         
     img:hover {
         -webkit-filter: brightness(100%);
         }}
+
+img{
+    max-width: 200px;
+}
+section{
+    margin: 30px;
+}

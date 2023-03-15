@@ -15,7 +15,8 @@ nav {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;  
-    margin-top: auto;  
+    margin-top: auto;
+    
 }
 img{
     width: 100%;
