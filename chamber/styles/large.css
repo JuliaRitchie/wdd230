@@ -102,5 +102,12 @@
     .spot-3-text{
         display: block;
     }
+    .spots-1{
+        margin-bottom: 20px;
+    }
+
+    .spots-2{
+        margin-bottom: 20px;
+    }
 
 }
