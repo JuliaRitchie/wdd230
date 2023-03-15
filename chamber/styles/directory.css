@@ -16,6 +16,9 @@ section{
     width: 300px;
     margin: 20px;
 }
+img{
+    width: 100%;
+}
 
 .cards img{
     width: 75%;
@@ -41,8 +44,4 @@ table {
 
 tr:nth-of-type(even){
     background-color: #FFAA5A;
-}
-
-table a{
-    color: navy; /* for chamber of commerce website */
 }
