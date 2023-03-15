@@ -23,11 +23,15 @@
     .spots-2{
         display: grid;
         grid-column: 2/3;
+        margin-bottom: auto;
     }
 
     .spots-1{
         display: grid;
         grid-column: 1/3;
+        margin-bottom: auto;
+        margin-top: auto;
+        padding: 30px;
     }
 
     td {

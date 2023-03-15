@@ -133,6 +133,7 @@ footer{
     background-color: #FFAA5A;
     padding: 30px;
     border-radius: 15px;
+    display: none;
 }
 
 .cooking-utensils-img{
@@ -278,4 +279,19 @@ width: 100px;
 #contact-link:hover{
     color: #EDF7F6;
     background-color: #56351E;
+}
+
+.rabbit-img{
+    max-width: 600px;
+}
+
+.cake-img{
+    max-width: 200px;
+}
+
+.cook-img{
+    max-width: 200px;
+}
+.cooking-utensils-img{
+    max-width: 200px;
 }

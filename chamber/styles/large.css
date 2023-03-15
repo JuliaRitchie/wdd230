@@ -16,7 +16,10 @@
     nav{
         flex-direction: row;
     }
-    .spots-3{
+    #spots-3{
+        background-color: #FFAA5A;
+        padding: 30px;
+        border-radius: 15px;
         display: block;
     }
     .spot-4{
