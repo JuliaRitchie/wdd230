@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+#green-box{
+    width: 80px;
+    background-color: #26532B;
+    padding: 50px;
+    margin: 20px;
+}
+
+#orange-box{
+    width: 80px;
+    background-color: #FFAA5A;
+    padding: 50px;
+    margin: 20px;
+}
+
+#gray-box{
+    width: 80px;
+    background-color: #EDF7F6;
+    padding: 50px;
+    margin: 20px;
+}
+
+#brown-box{
+    width: 80px;
+    background-color: #56351E;
+    padding: 50px;
+    margin: 20px;
+}
+
+#color-grid{
+    margin-bottom: -250px;
+}
+
+#title-font{
+    font-family: Playfair Display, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#body-font{
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 500px) {
+	#color-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width: 880px) {
+    #color-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

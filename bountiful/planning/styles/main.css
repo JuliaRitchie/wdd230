@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+header{
+    background-color: #561D5E;
+    border-radius: 20px;
+    color: silver;
+    display: flex;
+	flex-flow: column;
+	justify-content: center;
+    overflow: hidden;
+    font-family: Poppins;
+
+}
+
+img{
+    max-width: 365px;
+    justify-content: center;
+    align-content: center;
+}
+
+header a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 20px;
+}
+
+header a:hover{
+    color: #561D5E;
+    background-color: silver;
+    border-radius: 20px;
+}
+
+header a.active{
+    color: #561D5E;
+    background-color: silver;
+    border-radius: 20px;
+}
+
+body{
+    text-align: center;
+    font-family: Poppins;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    margin-top: -20px;
+    word-spacing: normal;
+    font-size: 10px;
+}
+
+
+footer{
+    background-color: silver;
+    border-radius: 20px;
+    text-align: center;
+    color: #561D5E;
+    font-family: Poppins;
+}
+div#content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+nav a{
+    color: silver;
+    text-decoration: none;
+    padding: 35px;
+}
+@media (min-width: 37.5em) {
+	nav, h1 {
+		flex-direction: row;
+	}
+	
+	nav a, h1 {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	main picture {
+		display: block;
+	}
+}
+
+@media (min-width: 48em) {
+	nav a, h1 {
+		font-size: 1.3rem;
+	}
+}
