@@ -29,6 +29,7 @@
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         margin: 20px;
+        justify-items: center;
     }
 
     .navigation{
