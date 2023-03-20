@@ -1,31 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 #green-box{
     width: 80px;
-    background-color: #26532B;
+    background-color: #77BB3F;
     padding: 50px;
     margin: 20px;
 }
 
 #orange-box{
     width: 80px;
-    background-color: #FFAA5A;
+    background-color: #E63946;
     padding: 50px;
     margin: 20px;
 }
 
 #gray-box{
     width: 80px;
-    background-color: #EDF7F6;
+    background-color: #F1FAEE;
     padding: 50px;
     margin: 20px;
 }
 
 #brown-box{
     width: 80px;
-    background-color: #56351E;
+    background-color: #1D3557;
     padding: 50px;
     margin: 20px;
+    color: white;
 }
 
 #color-grid{
@@ -33,11 +34,12 @@
 }
 
 #title-font{
-    font-family: Playfair Display, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Vidaloka, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
 }
 
 #body-font{
-    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
 @media (min-width: 500px) {

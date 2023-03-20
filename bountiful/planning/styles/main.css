@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 header{
     background-color: #561D5E;
@@ -11,6 +11,10 @@ header{
     overflow: hidden;
     font-family: Poppins;
 
+}
+
+#logo{
+    background-color: #77BB3F;
 }
 
 img{
