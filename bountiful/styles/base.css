@@ -88,7 +88,10 @@ footer{
     margin-bottom: 20px;
 }
 .ocean-img{
-    max-width: 200px;
+    max-width: 250px;
+}
+.surf-img{
+    max-width: 300px;
 }
 
 @media screen and (min-width: 650px){
@@ -131,4 +134,57 @@ footer{
         flex-direction: row;
     }
     
+}
+
+@media screen and (min-width: 825px){
+    a:first-child{
+        display: none;
+    }
+    a{
+        display:block;
+        display: flex;
+        
+    }
+    nav{
+        flex-direction: row;
+    }
+    .main-page{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        margin: 20px;
+        justify-items: center;
+    }
+
+    .navigation{
+        position: relative;
+
+    }
+
+    .join-img{
+        height: 75%;
+    }
+
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .join {
+        display: block;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    #join_content{
+        flex-direction: row;
+        margin: 80px;
+    }
+    
+
+    .spots-1{
+        margin-bottom: 20px;
+    }
+
+    .spots-2{
+        margin-bottom: 20px;
+    }
+
 }
