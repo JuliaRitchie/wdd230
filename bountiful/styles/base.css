@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.head-blurb{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    max-width: 100px;
+    display: inline;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
+body{
+    background-color: #F1FAEE;
+    color: #1D3557;
+}
+a {
+    display: none;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+a:first-child{
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+}
+.responsive a{
+    display: block;
+}
+
+* {
+    font-family: Nunito Sans;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4 {
+    font-family: Vidaloka;
+}
+
+footer{
+    text-align: center;
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
+.location{
+    display: block;
+    font-size: 1em;
+    padding: 5px;
+}
+.dynamic{
+    text-align: center;
+    background-color: #77BB3F;
+    color: #F1FAEE;
+    padding: 15px;
+}
+
+.intro-text{
+    text-align: center;
+}
+
+.spots-1{
+    padding: 10px;
+    background-color: #77BB3F;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 17px;
+}
+
+.spots-2{
+    padding: 10px;
+    background-color: #77BB3F;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.ocean-img{
+    max-width: 200px;
+}
+
+@media screen and (min-width: 650px){
+    .main-page{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 20px;
+        margin: 20px;
+         
+    }
+    .spots-2{
+        display: grid;
+        grid-column: 2/3;
+        margin-bottom: auto;
+    }
+
+    .spots-1{
+        display: grid;
+        grid-column: 1/3;
+        margin-bottom: auto;
+        margin-top: auto;
+        padding: 30px;
+    }
+    .weather {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    .join {
+        display: block;
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .spotlights {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        display: flex;
+    }
+
+    nav{
+        flex-direction: row;
+    }
+    
+}

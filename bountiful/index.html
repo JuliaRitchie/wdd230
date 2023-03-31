@@ -6,8 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-    
+    <header>
+        <div class="head-blurb">
+            <img src="planning/images/logo.png" class="logo" alt="smoothie cup with words bountiful foods on outside banner">
+            <h3 class="overlay">Bountiful Foods</h3>
+        </div>        
+        <nav class="navigation">
+            <a class="ham" href="#">&#9776;</a>
+            <a href="index.html">Home</a>
+            <a href="fresh.html">Fresh</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+        <div class="date"></div>
+        <div class="dynamic"></div>
+    </header>
+    <main>
+        <h1 class="intro-text">Welcome to Sunny California with Bountiful Foods!</h1>
+        <div class="weather">
+            <h3>Rixida Weather</h3>
+            <p class="temp">Temperature: <span class="t"></span> &#176;F</p>
+            <p class="desc">Partly Cloudy </p>
+            <p>Wind Speed: <span class="ws">4</span> mph</p>
+            <p>Wind Chill: <span class="wc">N/A</span></p>
+            <img id="weather_icon" src="" alt="">
+        </div>
+        <div class="join">
+            <div class="join-text">
+                <h3>Rixida Email List</h3>
+                <p>Join the Rixida email list for updates on upcoming events!</p>
+            </div>
+            <button class="join-button" onclick="window.location.href='contact.html'">Click to Join!</button>
+            <img src="images/join.jpg" class="join-img" alt="people putting their hands in the middle">
+        </div>
+        <div class="spotlights">
+            <div class="spots-1">
+                <h3 class="spot-1">Oceanside Shores</h3>
+                <p>Enjoy the beack with a Bountiful shake!</p>
+                <p>Summer Hours: M-F 9:00 a.m. - 5:00 p.m.</p>
+                <img class="ocean-img" src="images/beach.jpg" alt="beach touching the ocean">
+                
+            </div>
+            <div class="spots-2">
+                <h3 class="spot-2">Tourist Spot 2</h3>
+                <p>Meet Edna Cray, the mayor of Rixida. She has been mayor for four years and winner of competition for 8.
+                </p>
+                <img class="cook-img" src="images/female-chef.jpg" alt="woman cooking with man in background">
+                <a id="contact-link" href="contact.html"><p>Contact</p></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="planning/images/logo.png" class="logo" alt="smoothie cup with words bountiful foods on outside banner">
+        <h4>Bountiful Foods</h4>
+        <p>2907 State St, Carlsbad, CA 92008</p>
+        <p>bountiful-foods@freemail.com</p>
+        <a class="location" href="https://goo.gl/maps/P37ro81Dr6Df3fyA8">Location Map</a>
+        <p>+(123) 000-7774</p>
+        <p>&copy;<span class="year"></span> Bountiful Foods | Julia Nye | WDD 230 Project | Last Modification: <span class="currentdate"></span></p>
+    </footer>
 </body>
 </html>
