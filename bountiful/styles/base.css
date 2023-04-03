@@ -6,6 +6,10 @@
     flex-direction: row;
 }
 
+#weather_icon {
+    width: 100px;
+}
+
 .logo{
     max-width: 100px;
     display: inline;
@@ -51,6 +55,10 @@ h1, h2, h3, h4 {
     font-family: Vidaloka;
 }
 
+.drink-text{
+    font-size: 1.5em;
+}
+
 footer{
     text-align: center;
     background-color: #E63946;
@@ -93,18 +101,38 @@ footer{
 .surf-img{
     max-width: 300px;
 }
+.join-img{
+    max-width: 200px;
+}
+.join{
+    max-width: 300px;
+    padding: 15px;
+    background-color: #77BB3F;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.weather{
+    max-width: 300px;
+    padding: 15px;
+    background-color: #77BB3F;
+    border-radius: 15px;
+}
+.content{
+    display: flex;
+}
+.spotlights{
+    display: flex;
+}
 
 @media screen and (min-width: 650px){
     .main-page{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 20px;
+        display: flex;
         margin: 20px;
          
-    }
+    } 
     .spots-2{
-        display: grid;
-        grid-column: 2/3;
+        
         margin-bottom: auto;
     }
 
@@ -114,7 +142,7 @@ footer{
         margin-bottom: auto;
         margin-top: auto;
         padding: 30px;
-    }
+    } 
     .weather {
         grid-column: 2/3;
         grid-row: 5/6;
@@ -123,11 +151,6 @@ footer{
         display: block;
         grid-column: 1/3;
         grid-row: 4/5;
-    }
-    .spotlights {
-        grid-column: 1/3;
-        grid-row: 3/4;
-        display: flex;
     }
 
     nav{
@@ -160,31 +183,10 @@ footer{
 
     }
 
-    .join-img{
-        height: 75%;
-    }
+    
 
     .weather {
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    .join {
-        display: block;
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    #join_content{
-        flex-direction: row;
-        margin: 80px;
-    }
-    
-
-    .spots-1{
-        margin-bottom: 20px;
-    }
-
-    .spots-2{
-        margin-bottom: 20px;
-    }
-
 }

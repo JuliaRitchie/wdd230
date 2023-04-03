@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Home Page">
     <title>Bountiful Foods</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
+    <script defer rel="stylesheet" src="scripts/main.js"></script>
 </head>
 <body>
     <header>
         <div class="head-blurb">
             <img src="planning/images/logo.png" class="logo" alt="smoothie cup with words bountiful foods on outside banner">
             <h3 class="overlay">Bountiful Foods</h3>
-        </div>        
+        </div>     
+        
         <nav class="navigation">
             <a class="ham" href="#">&#9776;</a>
             <a href="index.html">Home</a>
@@ -24,39 +27,55 @@
         <div class="dynamic"></div>
     </header>
     <main>
-        <h1 class="intro-text">Welcome to Sunny California with Bountiful Foods!</h1>
-        <div class="weather">
-            <h3>Rixida Weather</h3>
-            <p class="temp">Temperature: <span class="t"></span> &#176;F</p>
-            <p class="desc">Partly Cloudy </p>
-            <p>Wind Speed: <span class="ws">4</span> mph</p>
-            <p>Wind Chill: <span class="wc">N/A</span></p>
-            <img id="weather_icon" src="" alt="">
-        </div>
-        <div class="join">
-            <div class="join-text">
-                <h3>Customize Ingredients</h3>
-                <p>Make your own smoothies for an environment suited for your personal tastes!</p>
+        <div id="hero">
+            <div class="hero-box">
+                <img src="images/fruit.jpg" class="hero" alt="various fruits in a basket including apple and pineapple">
             </div>
-            <button class="join-button" onclick="window.location.href='contact.html'">Make Your Own!</button>
-            <img src="images/join.jpg" class="join-img" alt="people putting their hands in the middle">
-        </div>
-        <div class="spotlights">
-            <div class="spots-1">
-                <h3 class="spot-1">Oceanside Shores</h3>
-                <p>Enjoy the beack with a Bountiful shake!</p>
-                <p>Summer Hours: M-Sat 9:00 a.m. - 5:00 p.m.</p>
-                <img class="ocean-img" src="images/beach.jpg" alt="beach touching the ocean">
+            <section id="hero-msg">
+                <h2 class="home-title">Bountiful Foods</h2>
+                <p>Welcome to Sunny California with Bountiful Foods!</p>
+                <button onclick="window.location.href='fresh.html'">Explore Our Shakes!</button>
+            </section>
+            
+        </div> 
+        <div class="main-content">
+            <div class="weather">
+                <h3>Surfing Weather</h3>
+                <p class="temp">Temperature: <span class="t"></span> &#176;F</p>
+                <p class="desc">Partly Cloudy </p>
+                <p>Humidity: <span class="ws">4</span>%</p>
+                <img id="weather_icon" src="" alt="">
+            </div>
+            <div class="join">
+                <div class="join-text">
+                    <h3>Customize Ingredients</h3>
+                    <p>Make your own smoothies for an environment suited for your personal tastes!</p>
+                    <button class="join-button" onclick="window.location.href='fresh.html'">Make Your Own!</button>
+                </div>
                 
+                <img src="images/blender.jpg" class="join-img" alt="blender on counter with fruit in it">
             </div>
-            <div class="spots-2">
-                <h3 class="spot-2">Surfin' Saturdays</h3>
-                <p>On Saturdays we surf...</p>
-                <p>Free Lessons with every shake!</p>
-                <p>*Only on Saturdays*</p>
-                <img class="surf-img" src="images/surf.jpg" alt="person surfing under wave">
+            <div class="spotlights">
+                <div class="spots-1">
+                    <h3 class="spot-1">Oceanside Shores</h3>
+                    <p>Enjoy the beack with a Bountiful shake!</p>
+                    <p>Summer Hours: M-Sat 9:00 a.m. - 5:00 p.m.</p>
+                    <img class="ocean-img" src="images/beach.jpg" alt="beach touching the ocean">
+                    
+                </div>
+                <div class="spots-2">
+                    <h3 class="spot-2">Surfin' Saturdays</h3>
+                    <p>On Saturdays we surf...</p>
+                    <p>Free Lessons with every shake!</p>
+                    <p>*Only on Saturdays*</p>
+                    <img class="surf-img" src="images/surf.jpg" alt="person surfing under wave">
+                </div>
             </div>
-        </div>
+            <div class="drinks-ordered">
+                <p class="drink-text">Number of drinks ordered:<span class="drink"></span></p>
+            </div>
+        </div> 
+        
     </main>
     <footer>
         <img src="planning/images/logo.png" class="logo" alt="smoothie cup with words bountiful foods on outside banner">
@@ -65,7 +84,7 @@
         <p>bountiful-foods@freemail.com</p>
         <a class="location" href="https://goo.gl/maps/P37ro81Dr6Df3fyA8">Location Map</a>
         <p>+(123) 000-7774</p>
-        <p>&copy;<span class="year"></span> Bountiful Foods | Julia Nye | WDD 230 Project | Last Modification: <span class="currentdate"></span></p>
+        <p>&copy;<span class="year"></span> Bountiful Foods | Julia Nye | WDD 230 Project </p>
     </footer>
 </body>
 </html>
