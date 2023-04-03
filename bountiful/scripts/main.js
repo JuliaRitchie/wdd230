@@ -1,5 +1,13 @@
 const apiURL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/carlsbad%20california?unitGroup=metric&key=CWNDZEEVESS3DLCGJAEU8KYP7&contentType=json";
 
+const mainnav = document.querySelector('.navigation');
+const hambutton = document.querySelector('.ham');
+hambutton.addEventListener('click', () => {
+    mainnav.classList.toggle('responsive');
+})
+
+
+
 const getWeather = async () => {
     const response = await fetch(apiURL);
     const data = await response.json();
