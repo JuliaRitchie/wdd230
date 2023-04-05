@@ -8,6 +8,7 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <script defer rel="stylesheet" src="scripts/main.js"></script>
+    <script defer rel="stylesheet" src="scripts/fresh.js"></script>
 </head>
 <body>
     <header>
@@ -28,7 +29,7 @@
     <main>
         <h1 id="join-header">Customize Your Smoothie!</h1>
         <main id="join_content">
-            <form method="get" action="thankyou.html">
+            <form method="get" action="fresh.html">
                 <label for="fname">First Name *:</label>
                 <input id="fname" name="firstname" required>
                 <label for="email">Email *:</label>
@@ -57,6 +58,7 @@
                 <input id="date" type="hidden" name="todaydate">
                 <input type="submit" value="Calculate Smoothie">
             </form>
+            <div class="form-submitted"></div>
         </main>
     </main>
     <footer>
