@@ -34,9 +34,18 @@ const getWeather = async () => {
     console.log(data);
     let image = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/main/SVG/1st%20Set%20-%20Color/${data.currentConditions.icon}.svg`;
     let t = data.currentConditions.temp;
-    let t_f = (t * (9/5)) + 35
-    document.querySelector('.t').textContent = t_f;
+    let t_f = (t * (9/5)) + 35;
+    let t1 = data.days[0].tempmax;
+    let t_f1 = (t1 * (9/5)) + 35;
+    let t2 = data.days[1].tempmax;
+    let t_f2 = (t2 * (9/5)) + 35;
+    let t3 = data.days[2].tempmax;
+    let t_f3 = (t3 * (9/5)) + 35;
+    document.querySelector('.t').textContent = Math.round(t_f);
     document.querySelector('.ws').textContent = data.currentConditions.humidity;
+    document.querySelector('.d1').textContent = Math.round(t_f1)
+    document.querySelector('.d2').textContent = Math.round(t_f2);
+    document.querySelector('.d3').textContent = Math.round(t_f3);
     document.querySelector('.desc').textContent =  data.currentConditions.conditions;
     document.querySelector('#weather_icon').src = image;
     document.querySelector('#weather_icon').alt= data.currentConditions.conditions + ' icon';
@@ -49,3 +58,4 @@ getWeather();
 localStorage.setItem('name', 'Julia Nye - Permanent');
 sessionStorage.setItem('class', 'WDD230 - not Permanent');
 
+document.querySelector('.drink').textContent = localStorage.getItem('drinks')
