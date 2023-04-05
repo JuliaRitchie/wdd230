@@ -158,10 +158,41 @@ textarea{
     height: 150px;
 }
 
+#our-history{
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+}
+#contact{
+    text-align: center;
+    padding: 10px;
+}
 input, textarea {
    margin-bottom: 20px;
    width: 100%;
    max-width: 500px;
+}
+.our-history{
+    display: flex;
+    padding: 20px;
+}
+
+#google-maps{
+    padding: 50px;
+    
+}
+
+#history-img{
+    max-width: 400px;
+}
+
+.history-text{
+    font-size: 1.3em;
+}
+
+.esteemed-leaders{
+    display: flex;
+    padding: 30px;
 }
 
 input[type='submit']{
@@ -185,7 +216,7 @@ input[type='submit']:hover{
     padding: 15px;
     text-align: center;
 }
- 
+    
 
 @media screen and (min-width: 650px){
     .main-page{
@@ -201,6 +232,21 @@ input[type='submit']:hover{
     nav{
         flex-direction: row;
     }
+    #history-img {
+        -webkit-filter: brightness(50%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        width: auto;
+        }
+
+    
+        
+    #history-img:hover {
+        -webkit-filter: brightness(100%);
+        }
     
 }
 

@@ -101,4 +101,10 @@ getWeather();
 
 /* storage local and session */
 localStorage.setItem('name', 'Julia Nye - Permanent');
-sessionStorage.setItem('class', 'WDD230 - not Permanent')
+sessionStorage.setItem('class', 'WDD230 - not Permanent');
+
+var inputName= document.getElementById("fname");
+localStorage.setItem("fname", inputName.value);
+
+var inputEmail= document.getElementById("email");
+localStorage.setItem("email", inputEmail.value);
