@@ -70,6 +70,19 @@ h1, h2, h3, h4 {
     font-size: 1.5em;
 }
 
+#submit-btn{
+    height: 80px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #77BB3F;
+    font-size: 1.5em;
+}
+#submit-btn:hover{
+    background-color: #E63946;
+    color: #F1FAEE;
+    font-size: 1.5em;
+}
+
 footer{
     text-align: center;
     background-color: #E63946;
