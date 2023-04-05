@@ -32,6 +32,7 @@ nav {
     flex-direction: column;
 }
 
+
 header{
     background-color: #E63946;
     color: #F1FAEE;
@@ -48,6 +49,12 @@ a {
     font-size: 1.5em;
     color: white;
 }
+
+a:hover{
+    color: #E63946;
+    background-color: white;
+}
+
 a:first-child{
     display: block;
     text-decoration: none;
@@ -68,6 +75,19 @@ h1, h2, h3, h4 {
 
 .drink-text{
     font-size: 1.5em;
+}
+
+button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #77BB3F;
+    font-size: 1em;
+}
+
+button:hover{
+    background-color: #E63946;
+    color: #F1FAEE;
+    font-size: 1em;
 }
 
 #submit-btn{
